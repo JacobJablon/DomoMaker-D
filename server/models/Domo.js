@@ -15,6 +15,10 @@ const DomoSchema = new mongoose.Schema({
     min: 0,
     required: true,
   },
+  emotion: {
+    type: String,
+    required: true,
+  },
   owner: {
     type: mongoose.Schema.ObjectId,
     required: true,
